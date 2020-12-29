@@ -1,7 +1,8 @@
 ---
-title:  "Setting up my blog in Github"
+title:  "Setting up my blog via Github"
 layout: post
 categories: media
+tags: [jekyll, learn, blog, github]
 ---
 
 Let's see what this thing can do, I am gonna have to learn markdown now :-)
