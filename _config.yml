@@ -23,6 +23,7 @@ external:                  # see http://fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:steveling@users.noreply.github.com"}
   - {title: Github, icon: github, url: "https://github.com/slingman"}
   - {title: Instagram, icon: instagram, url: "https://instagram.com/s.l.i.n.g"}
+  - {title: Flickr, icon: flickr, url: "https://flickr.com/sling_flickr"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
