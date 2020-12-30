@@ -31,11 +31,6 @@
 <header>
   <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
   {% include menu.html menu=pages text=true %}
-  <div>
-    {% if post.tags.size > 0 %}
-      {{ post.tags | sort | join: ", " }}
-    {% endif %}
-  </div>
 </header>
 
 {{ content }}
