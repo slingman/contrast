@@ -18,7 +18,7 @@ show_sidebar: false        # show a sidebar instead of the usual header
 navigation:
   - {file: "index.html", icon: Portfolio}
   - {file: "README.md", icon: address-card}
-  - {url: "http://slingman.github.io", Portfolio}
+  - {url: https://slingman.github.io, name: Portfolio}
 
 external:                  # see http://fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:steveling@users.noreply.github.com"}
