@@ -16,8 +16,8 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:
-  - {file: "index.html", icon: Portfolio}
-  - {file: "README.md", icon: address-card}
+# - {file: "index.html", icon: Portfolio}
+# - {file: "README.md", icon: address-card}
   - {title: Portfolio, url: "https://slingman.github.io"}
 
 external:                  # see http://fontawesome.com/icons
