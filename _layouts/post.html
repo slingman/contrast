@@ -5,8 +5,8 @@ layout: default
 <article>
   {% include meta.html post=page %}
 
-  {% if post.tags.size > 0 %}
-    {{ post.tags | sort | join: ", " }}
+  {% if page.tags.size > 0 %}
+    {{ page.tags | sort | join: ", " }}
   {% endif %}
 
   {{ content }}
