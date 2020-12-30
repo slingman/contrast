@@ -4,11 +4,6 @@ layout: default
 
 <article>
   {% include meta.html post=page %}
-  <div>
-    {% if post.tags.size > 0 %}
-      {{ post.tags | sort | join: ", " }}
-    {% endif %}
-  </div>
   {{ content }}
   {% if page.comments != false and site.comments.isso or site.comments.disqus %}
     <hr>
